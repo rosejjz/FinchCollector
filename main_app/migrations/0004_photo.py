@@ -16,7 +16,7 @@ class Migration(migrations.Migration):
             fields=[
                 ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
                 ('url', models.CharField(max_length=200)),
-                ('finch', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='main_app.finch')),
+                ('cat', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='main_app.finch')),
             ],
         ),
     ]
